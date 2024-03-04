@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2024년 3학년 5반 아침 자습 기록하기</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1 id="title">2024년 3학년 5반 아침 자습 기록하기</h1>
+    <p id="requirement">8시 20분 이전에 시작한 것만 인정됩니다.</p>
+    <p id="current-time">현재 시각: <span id="time"></span></p>
+    <label for="name">이름:</label>
+    <input type="text" id="name">
+    <button onclick="recordStudy()">자습 시작!</button>
+    <p id="record-text">자습 기록:</p>
+    <div id="record-container"></div>
+    <button onclick="exportToCSV()">추출하기</button>
+
+    <script src="script.js"></script>
+</body>
+</html>
